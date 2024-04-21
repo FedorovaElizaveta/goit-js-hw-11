@@ -8,7 +8,7 @@ export function markupTemplate({
   downloads,
 }) {
   return `<li class="gallery-list-item">
-        <a href="${largeImageURL}"><img class="gallery-img" src="${webformatURL}" alt="${tags}" /></a>
+        <a href="${largeImageURL}" data-caption="${tags}"><img class="gallery-img" src="${webformatURL}" alt="${tags}" /></a>
         <div class="img-info">
           <span class="likes"
             ><p>Likes</p>
